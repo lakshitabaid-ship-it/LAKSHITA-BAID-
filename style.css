@@ -111,3 +111,31 @@ ul.clean li { margin: 7px 0; }
   border-radius: 48% 48% 22px 22px;
   border: 1px solid var(--line);
 }
+
+/* Homepage profile photograph */
+
+.hero-image {
+  width: 20%;
+  min-width: 220px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 48% 48% 22px 22px;
+  border: 1px solid var(--line);
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    width: 65%;
+    min-width: 0;
+    max-width: 280px;
+  }
+}
