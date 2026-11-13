@@ -96,3 +96,18 @@ ul.clean li { margin: 7px 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+.portrait-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portrait {
+  width: 100%;
+  max-width: 380px;
+  height: 450px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 48% 48% 22px 22px;
+  border: 1px solid var(--line);
+}
