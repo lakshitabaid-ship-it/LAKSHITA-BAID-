@@ -158,3 +158,22 @@ ul.clean li { margin: 7px 0; }
     height: 270px;
   }
 }
+
+/* Profile photograph inside the original portrait frame */
+
+.portrait-photo {
+  display: block;
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: inherit;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 760px) {
+  .portrait-photo {
+    height: 320px;
+  }
+}
